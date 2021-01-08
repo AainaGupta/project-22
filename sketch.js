@@ -50,10 +50,10 @@ function draw() {
 
 function keyPressed() {
 	if(keyDown("left")){
-		fairy.velocityX=fairy.VelocityX-3;
+		fairy.x=fairy.x-3;
 	}
 	if(keyDown("right")){
-		fairy.velocityX=fairy.VelocityX+4;
+		fairy.x=fairy.x+4;
 	}
 	if(keyDown("down")){
 		star.velocityY=4
